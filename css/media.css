@@ -1,0 +1,15 @@
+@media only screen and (min-width:200px) and (max-width:991.8px)
+{
+    header 
+    {
+        position: sticky;
+        top: 0px;
+    }
+}
+@media only screen and (min-width:535px) and (max-width:540.8px)
+{
+    .cus 
+    {
+        width: 100%;
+    }
+}
