@@ -213,6 +213,28 @@ header
     border:none;
     background-color: #CCCCCC;
 }
+@keyframes img-move {
+    25%
+    {
+        transform: translateX(10px);
+    }
+    50%
+    {
+        transform: translateX(0px);
+    }
+    75%
+    {
+        transform: translateX(-10px);
+    }
+    100%
+    {
+        transform: translateX(0px);
+    }
+}
+.about-us-img
+{
+    animation: img-move 2s linear 0s infinite;
+}
 .banner
 {
     background: url(../images/imgi_26_wall-fan-Promotional-Offer-Banner-Desktop-ver.webp) no-repeat;

@@ -47,3 +47,4 @@ $('#blog-slider').owlCarousel({
         }
     }
 })
+AOS.init();
