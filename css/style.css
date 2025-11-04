@@ -388,3 +388,38 @@ header
     border:none !important;
 }
 /* end */
+
+/* testimonial */
+.testimonial>h2 
+{
+    color: #223D6D;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+.testimonial-para
+{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+.star
+{
+    text-align: center;
+}
+.star>i 
+{
+    color:#ffc631;
+    font-size: 14px;
+}
+.testimonial-name
+{
+    text-align: center;
+}
+.testimonial-name>h4
+{
+    color: #123062;
+    font-size: 15px;
+}
+/* end */
