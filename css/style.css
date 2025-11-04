@@ -222,7 +222,7 @@ header
 }
 .banner-content
 {
-    padding-top: 250px;
+    padding-top: 200px;
 }
 .deal 
 {
@@ -240,6 +240,7 @@ header
     line-height: 43px;
     letter-spacing: -0.5px;
     color: white;
+    padding: 20px 0px;
 }
 .banner-content>p 
 {
@@ -250,13 +251,18 @@ header
     color: white;
     padding: 20px 0px;
 }
-.banner-content>button 
+.enqNow-btn 
 {
     border: 1px solid white;
     border-radius: 50px;
     background-color: #123062;
     color: white;
     padding: 8px 50px;
+    transition: 0.5s;
+}
+.enqNow-btn:hover 
+{
+    background-color: #223D6D;
 }
 .sub-btn 
 {
@@ -266,6 +272,13 @@ header
     background-color: green;
     color: white;
     transition: 0.5s;
+}
+.banner-2 
+{
+    background: url(../images/imgi_28_wall-fan-Promotional-Offer-Banner-mobile-vers.webp) no-repeat;
+    background-position:center center;
+    background-size:cover;
+    height: 680px;
 }
 .menu-link
 {
