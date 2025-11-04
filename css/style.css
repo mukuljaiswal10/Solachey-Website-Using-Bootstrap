@@ -278,7 +278,7 @@ header
     background: url(../images/imgi_28_wall-fan-Promotional-Offer-Banner-mobile-vers.webp) no-repeat;
     background-position:center center;
     background-size:cover;
-    height: 680px;
+    height:800px;
 }
 .menu-link
 {
@@ -421,5 +421,67 @@ header
 {
     color: #123062;
     font-size: 15px;
+}
+/* end */
+
+/* blogs */
+.blogs>h4
+{
+    color: green;
+}
+.blogs>h2 
+{
+    color: #223D6D;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+.card 
+{
+    cursor: pointer;
+}
+.card-title
+{
+    color: #123062;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 18px;
+}
+.card-title:hover 
+{
+    color: #42ac3a;
+}
+.btn-anchor 
+{
+    color: #42ac3a;
+}
+.btn-anchor:hover
+{
+    color: #42ac3a;
+}
+.btn-anchor>i 
+{
+    transform: scale(0);
+    transition: 0.5s;
+}
+@keyframes cursor-move
+{
+    0%
+    {
+        transform: translateX(0px);
+    }
+    50%
+    {
+        transform: translateX(10px);
+    }
+    100% 
+    {
+        transform: translateX(0px);
+    }
+}
+.btn-anchor:hover i 
+{
+    transform: scale(1);
+    animation: cursor-move 0.9s linear 0s infinite;
 }
 /* end */
