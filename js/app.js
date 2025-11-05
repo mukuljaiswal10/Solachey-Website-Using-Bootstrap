@@ -1,3 +1,4 @@
+// header-scroll-animation
 let header = document.querySelector("header")
 window.addEventListener("scroll",()=>{
     if(window.scrollY>=100)
@@ -9,6 +10,8 @@ window.addEventListener("scroll",()=>{
         header.classList.remove("headerScroll")
     }
 })
+
+// testimonial-slider
 $('#testimonial-slider').owlCarousel({
     loop:true,
     margin:20,
@@ -28,6 +31,8 @@ $('#testimonial-slider').owlCarousel({
         }
     }
 })
+
+// blog slider
 $('#blog-slider').owlCarousel({
     loop:true,
     margin:20,
@@ -47,4 +52,6 @@ $('#blog-slider').owlCarousel({
         }
     }
 })
+
+// aos animation :- 
 AOS.init();
